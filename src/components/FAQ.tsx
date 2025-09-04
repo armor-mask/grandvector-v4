@@ -11,14 +11,14 @@ const FAQ = () => {
       category: 'IMPLEMENTATION'
     },
     {
-      question: 'What makes your lead generation "infinite"?',
-      answer: 'AI continuously scans, filters, and qualifies new opportunities using real-time data. Unlike manual outreach, AI scales effortlessly — processing thousands of leads, personalizing engagement, and running campaigns around the clock without human limitations.',
-      category: 'LEAD GENERATION'
-    },
-    {
       question: 'What if AI automation doesn\'t fit my business?',
       answer: 'We guarantee results or your money back. Before starting, we conduct a free business analysis to ensure AI automation will benefit your specific situation. If automation isn\'t a match for certain processes, we\'ll recommend alternatives or hybrid solutions that deliver measurable improvements.',
       category: 'INTEGRATION'
+    },
+    {
+      question: 'What makes your lead generation "infinite"?',
+      answer: 'AI continuously scans, filters, and qualifies new opportunities using real-time data. Unlike manual outreach, AI scales effortlessly — processing thousands of leads, personalizing engagement, and running campaigns around the clock without human limitations.',
+      category: 'LEAD GENERATION'
     },
     {
       question: 'Can you integrate with our existing CRM and tools?',
