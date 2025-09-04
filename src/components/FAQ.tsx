@@ -8,42 +8,47 @@ const FAQ = () => {
     {
       question: 'How quickly can AI automation be implemented?',
       answer: 'Most AI solutions can be deployed within 2-4 weeks. Simple voice callers and chatbots can be live in days, while complex multi-channel automations may take 4-6 weeks for full implementation.',
-      category: 'Implementation'
+      category: 'IMPLEMENTATION'
     },
     {
       question: 'What makes your lead generation "infinite"?',
-      answer: 'Our AI system continuously identifies new prospects, personalizes outreach, and scales without human intervention. Unlike traditional methods limited by manual effort, our system can process thousands of leads simultaneously.',
-      category: 'Lead Generation'
+      answer: 'AI continuously scans, filters, and qualifies new opportunities using real-time data. Unlike manual outreach, AI scales effortlessly — processing thousands of leads, personalizing engagement, and running campaigns around the clock without human limitations.',
+      category: 'LEAD GENERATION'
+    },
+    {
+      question: 'What if AI automation doesn\'t fit my business?',
+      answer: 'We guarantee results or your money back. Before starting, we conduct a free business analysis to ensure AI automation will benefit your specific situation. If automation isn\'t a match for certain processes, we\'ll recommend alternatives or hybrid solutions that deliver measurable improvements.',
+      category: 'INTEGRATION'
     },
     {
       question: 'Can you integrate with our existing CRM and tools?',
       answer: 'Yes, we integrate with virtually any platform through APIs, webhooks, or custom connections. Our team has experience with 500+ different tools and platforms.',
-      category: 'Integration'
+      category: 'INTEGRATION'
     },
     {
       question: 'What kind of businesses benefit most from AI automation?',
-      answer: 'Any business that relies on customer engagement, lead generation, or repetitive processes. This includes SaaS companies, e-commerce, professional services, real estate, healthcare, and financial services.',
-      category: 'Business'
+      answer: 'Any business that handles repetitive tasks, customer engagement, or lead generation can benefit. This includes e-commerce, real estate, healthcare, financial services, SaaS, and professional services. If your business relies on consistent communication and data-driven decisions, AI can amplify results.',
+      category: 'BUSINESS'
     },
     {
       question: 'How do you ensure AI responses sound natural?',
-      answer: 'We use advanced language models trained on your specific industry and brand voice. Each AI agent is customized with your terminology, tone, and business rules to ensure authentic interactions.',
-      category: 'AI Technology'
+      answer: 'We customize AI models with your brand\'s tone, vocabulary, and industry terminology. This ensures conversations feel authentic and aligned with your business identity while still leveraging the power of advanced language models.',
+      category: 'AI TECHNOLOGY'
     },
     {
-      question: 'What ongoing support do you provide?',
-      answer: 'We provide 24/7 monitoring, regular optimization, performance reports, and dedicated support. As your business grows, we continuously improve and scale your AI systems.',
-      category: 'Support'
+      question: 'How much does AI automation cost compared to hiring staff?',
+      answer: 'AI automation is significantly more cost-effective than expanding headcount. A single AI system can handle the workload of multiple employees without training, turnover, or downtime. For most businesses, this translates into thousands of dollars saved monthly — while improving consistency and availability.',
+      category: 'COST SAVINGS'
     }
   ];
 
   const categoryColors = {
-    'Implementation': 'from-blue-500 to-cyan-500',
-    'Lead Generation': 'from-green-500 to-emerald-500',
-    'Integration': 'from-purple-500 to-pink-500',
-    'Business': 'from-orange-500 to-red-500',
-    'AI Technology': 'from-indigo-500 to-purple-500',
-    'Support': 'from-teal-500 to-blue-500'
+    'IMPLEMENTATION': 'from-blue-500 to-cyan-500',
+    'LEAD GENERATION': 'from-green-500 to-emerald-500',
+    'INTEGRATION': 'from-purple-500 to-pink-500',
+    'BUSINESS': 'from-orange-500 to-red-500',
+    'AI TECHNOLOGY': 'from-indigo-500 to-purple-500',
+    'COST SAVINGS': 'from-teal-500 to-blue-500'
   };
 
   return (
@@ -62,11 +67,11 @@ const FAQ = () => {
           
           <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-              Questions &
+              Your Questions,
             </span>
             <br />
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              Answers
+              Answered
             </span>
           </h2>
           
